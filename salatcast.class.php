@@ -294,7 +294,7 @@ E
             if ($this->info[$k]['sunnah1'] > 0)  $desc.="<p><strong>Sunnah before Fardh</strong>: ".$this->info[$k]['sunnah1']." Raka'as</p>";
             if ($this->info[$k]['fardh'] > 0)    $desc.="<p><strong>Fardh: </strong>".$this->info[$k]['fardh']." Raka'as </p>";
             if ($this->info[$k]['sunnah2'] > 0)  $desc.="<p><strong>Sunnah after Fardh:</strong> ".$this->info[$k]['sunnah2']." Raka'as</p>";
-            if ($this->info[$k]['witr'] > 0)     $desc.="<p><strong>Witr:</strong> ".$this->info[$k]['sunnah2']." Raka'as</p>";
+            if ($this->info[$k]['witr'] > 0)     $desc.="<p><strong>Witr:</strong> ".$this->info[$k]['witr']." Raka'as</p>";
         }
         $newItem->setDescription($desc);
         $TestFeed->addItem($newItem);
